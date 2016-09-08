@@ -22,7 +22,7 @@
 	}
 
 8. Now commit that to your repository in the Git\_Project folder.
-9. Create a text file called readMe.txt. Explain why you did you 
+9. Create a text file called readMe.txt. Explain why you did you chose to use GitHub Desktop or command line for your commits. Also, explain what a commit is.
 
 [1]:	https://guides.github.com/activities/hello-world/
 [2]:	https://help.github.com/articles/cloning-a-repository/
