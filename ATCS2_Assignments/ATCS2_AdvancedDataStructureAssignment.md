@@ -31,6 +31,7 @@ In your repository, please commit:
 3. A test class for your data structure.
 4. All files necessary to run your project.
 
+### MAKE SURE YOU COMMIT EVERY CLASS
 
 
 [1]:	https://www.cs.princeton.edu/courses/archive/fall15/cos226/assignments/queues.html
