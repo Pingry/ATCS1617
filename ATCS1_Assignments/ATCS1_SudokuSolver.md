@@ -1,14 +1,14 @@
-**Introduction
+**Introduction**
 Sudoku is a puzzle where you fill in numbers 1-9 on a 9x9 board such that no number is duplicated in any row, column, or 3x3 sub-grid. For more information about the puzzle, see Wikipedia: http://en.wikipedia.org/wiki/Sudoku
 
-**What to Do
+**What to Do**
 Write a program to solve a Sudoku puzzle.
 
 The input will consist of 81 characters that are numerals (1-9) or dashes (-) in a CSV file. All other characters should be ignored.
 
 The output must consist of 9 lines of 9 characters each. Each character must be a numeral (1-9), and the whole output must be a solution to the input puzzle.
 
-**Sudoku Board
+**Sudoku Board**
 Devise a SudokuBoard class to support manipulations like: 
 
 void place(r,c,n) // place numeral n at position (r,c) 
@@ -22,7 +22,7 @@ boolean solved() // true if there are no blank spots on the board
 
 Implement and test your board with throw-away programs until you're sure it's correct. At the same time, be thinking about the design and implementation of the main program. 
 
-**Making the Solver
+**Making the Solver**
 Create a stack that is a linked list of sudoku boards 
 Stack\<SudokuBoard\> stack = new LinkedList\<SudokuBoard\>();
 
