@@ -66,27 +66,27 @@ For this lab, you will be making your own version of this game using Binary Tree
 The process works like this: you will need a Binary Tree where the value of each node contains a question and the branches represent the answer to that question. For example: if the question is “Is it a plant?” then all the nodes to the right represent the line of questioning if it is indeed a plant, while all the nodes to the left represent the questions for if it is not a plant.
  
 Your algorithm to code the game should look like this:
-1. Look at the current node (which will be the root node to start)  
+1. Look at the current node (which will be the root node to start)
 
-2. If the current node is not a leaf node  
+2. If the current node is not a leaf node
 
-3. Output the question  
+3. Output the question
 
-4. Get an answer from the user  
+4. Get an answer from the user
 
-5. If the answer is yes, move to the current node’s right branch  
+5. If the answer is yes, move to the current node’s right branch
 
-6. If the answer is no, move to the current node’s left branch  
+6. If the answer is no, move to the current node’s left branch
 
-7. If the current node is a leaf node  
+7. If the current node is a leaf node
 
-8. Use that node as your guess  
+8. Use that node as your guess
 
-9. If you’re wrong, ask the user to tell you what they were thinking and to enter a question that you could have asked that would have differentiated your guess from the actual answer. Update the tree accordingly.  
+9. If you’re wrong, ask the user to tell you what they were thinking and to enter a question that you could have asked that would have differentiated your guess from the actual answer. Update the tree accordingly.
 
-10. If you’re correct, taunt the user  
+10. If you’re correct, taunt the user
 
-11. Repeat!  
+11. Repeat!
 
 
 ### Optional Add-Ons
@@ -96,7 +96,19 @@ Your algorithm to code the game should look like this:
 
 ## Test 2: Binary Search Tree
 
-Design a BinarySearchTree class that maintains the rules of a Binary Search Tree, as discussed in class. (An internet search will give you plenty of information if you need a quick refresher.) You could make your BST extends a BinaryTree, but it would probably be easiest to have it simply contain a single BinaryTree reference called root. You should be able to add items to your binary tree and output it in using all 3 Binary Tree traversals. 
+Design a BinarySearchTree\<E extends Comparable\> class that maintains the rules of a Binary Search Tree, as discussed in class. (An internet search will give you plenty of information if you need a quick refresher.) You could make your BST extend a BinaryTree, or simply contain a single BinaryTree reference called root. You should be able to add items to your binary tree and output it in using all 3 Binary Tree traversals.
 
+Methods:
+
+- Constructor
+
+- [Optional] Copy Constructor //Great way to test your code
+
+- boolean add(E item)
+
+- [Optional] boolean remove(E item)
+
+- //Returns reference to item in tree. Null if not in tree.
+	E find(E item) 
 
 
